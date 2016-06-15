@@ -24,12 +24,12 @@
 	]);
 
 	$result = $cloudFront->createInvalidation([
-	    'DistributionId' => 'E18R9WQP57CVQ6', // REQUIRED
+	    'DistributionId' => 'distribution_id', // REQUIRED
 	    'InvalidationBatch' => [ // REQUIRED
 	        'CallerReference' => $caller, // REQUIRED
 	        'Paths' => [ // REQUIRED
-	            'Items' => ['/'],
-	            'Quantity' => 1 // REQUIRED
+	            'Items' => ['/some-path', '/img/some-resource.jpg'], // items or paths to invalidate
+	            'Quantity' => 2 // REQUIRED (must be equal to the number of 'Items' in the previus line)
 	        ]
 	    ]
 	]);
