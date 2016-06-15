@@ -5,7 +5,7 @@ Download and unzip (in the same forlder) the AWS sdk at the URL http://docs.aws.
 To test the script follow the next simple steps:
 
 - insert your AWS credentials at lines 21 and 22
-- insert you cloudfront distribution ID
+- insert you cloudfront distribution ID at line 27
 - modify items and quantity at the lines 31 32
 
 ###WARNING: hard coding credentials is not the best practice. 
