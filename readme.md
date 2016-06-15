@@ -6,7 +6,7 @@ To test the script follow the next simple steps:
 
 - insert your AWS credentials at lines 21 and 22
 - insert you cloudfront distribution ID at line 27
-- modify items and quantity at the lines 31 32
+- modify items and quantity at the lines 31 and 32
 
 ###WARNING: hard coding credentials is not the best practice. 
 You can find further documentation at http://docs.aws.amazon.com/aws-sdk-php/v3/guide/guide/credentials.html
