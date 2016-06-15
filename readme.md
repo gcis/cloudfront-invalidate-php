@@ -8,7 +8,8 @@ To test the script follow the next simple steps:
 - insert you cloudfront distribution ID at line 27
 - modify items and quantity at the lines 31 and 32
 
-###WARNING: hard coding credentials is not the best practice. 
+###WARNING: hard-coding credentials is not a good practice.
+####In this case I used hard-coded credentials just to semplify the exaple
 You can find further documentation at http://docs.aws.amazon.com/aws-sdk-php/v3/guide/guide/credentials.html
 
 
