@@ -34,5 +34,5 @@
 	    ]
 	]);
 
-	echo $result;
+	//echo $result; if you want to print the output of the request
 ?>
